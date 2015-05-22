@@ -4,7 +4,8 @@ angular.module("autosModule",[] )
 	
 			{marca: "Toyota", modelo: "Yaris", ano: "2010"},
 			{marca: "Kia", modelo: "Cerato", ano: "2013"},
-			{marca: "Chevrolet", modelo: "Spark", ano: "2015"}
+			{marca: "Chevrolet", modelo: "Spark", ano: "2015"},
+			{marca: "Audi", modelo: "TT", ano: "2010"}
 	];
 
 	$scope.save = function(){

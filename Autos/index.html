@@ -86,7 +86,7 @@
                </tr>
             </thead>
             <tbody>
-               <tr ng-repeat="auto in autos">
+               <tr ng-repeat="auto in autos | orderBy: 'marca'">
                    <td> {{auto.marca}} </td>
                    <td> {{auto.modelo}} </td>
                    <td> {{auto.ano}} </td>
