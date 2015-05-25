@@ -1,4 +1,4 @@
-angular.module("autosModule",[] )
+angular.module("autosModule",[] ) 
 .controller("autoCtr", function ($scope){
 	$scope.autos=[
 	
